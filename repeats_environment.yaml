@@ -1,0 +1,17 @@
+#  mamba env create --name repeats --file repeats_environment.yaml 
+channels:
+  - conda-forge
+  - bioconda
+  - r
+  - defaults
+dependencies:
+  - r-base
+  - r-essentials
+  - r-doparallel
+  - r-magrittr
+  - r-seqinr
+  - r-stringr
+  - r-svMisc
+  - bioconductor-msa
+  - bioconductor-biostrings
+  - mafft=7.486

@@ -1,0 +1,21 @@
+#  mamba env create --name syri --file syri_environment.yaml 
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.8.10
+  - mummer
+  - snakemake
+  - cython
+  - numpy
+  - scipy
+  - pandas
+  - biopython
+  - psutil
+  - matplotlib
+  - python-igraph
+  - pysam
+  - orthofinder=2.5.4
+  - snpeff=5.0e
+  - snpsift=4.3.1t

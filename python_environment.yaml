@@ -1,0 +1,26 @@
+#  mamba env create --name python --file python_environment.yaml 
+channels:
+  - conda-forge
+  - bioconda
+  - r
+  - defaults
+dependencies:
+  - python=3.9.6
+  - pandas
+  - numpy
+  - scipy
+  - r-base=4.1.0
+  - r-essentials
+  - r-ggplot2
+  - r-doparallel
+  - r-rcppparallel
+  - r-parallelmap
+  - r-dplyr
+  - r-seqinr
+  - r-stringr
+  - r-svMisc
+  - r-argparse=2.0.4
+  - bioconductor-msa
+  - bioconductor-biostrings
+  - bioconductor-dmrcaller=1.24.0
+  - bioconductor-rtracklayer=1.52.0

@@ -1,0 +1,7 @@
+#  mamba env create --name sibeliaz --file sibeliaz_environment.yaml 
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - sibeliaz=1.2.3

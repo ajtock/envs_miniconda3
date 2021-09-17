@@ -1,0 +1,8 @@
+#  mamba env create --name HiCExplorer --file HiCExplorer_environment.yaml 
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - snakemake=6.0.3
+  - hicexplorer=3.6

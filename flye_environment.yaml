@@ -1,0 +1,8 @@
+#  mamba env create --name flye --file flye_environment.yaml 
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9.6
+  - flye=2.9
