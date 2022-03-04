@@ -9,6 +9,10 @@ dependencies:
   - pandas
   - numpy
   - scipy
+  - matplotlib
+  - seaborn
+  - pysam
+  - scikit-bio
   - r-base=4.1.0
   - r-essentials
   - r-ggplot2

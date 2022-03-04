@@ -1,0 +1,23 @@
+#  mamba env create --name pomoxis --file pomoxis_environment.yaml
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - pomoxis=0.2.2
+  - filtlong=0.2.0
+  - ngmlr=0.2.7
+  - python=3.6.7
+  - biopython
+  - click
+  - edlib
+  - joblib
+  - numpy=1.17.4
+  - matplotlib
+  - pandas
+  - plotly
+  - python-slugify
+  - regex=2020.1.8
+  - repeatmasker=4.0.9_p2
+  - jellyfish=2.2.10
+  - minimap2

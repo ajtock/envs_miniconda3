@@ -1,0 +1,7 @@
+#  mamba env create --name EDTA --file EDTA_environment.yaml 
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - edta=1.9.6

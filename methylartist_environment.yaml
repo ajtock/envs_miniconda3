@@ -1,0 +1,9 @@
+#  mamba env create --name methylartist --file methylartist_environment.yaml 
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9.6
+  - numpy
+  - jupyter

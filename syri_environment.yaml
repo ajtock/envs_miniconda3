@@ -6,6 +6,8 @@ channels:
 dependencies:
   - python=3.8.10
   - mummer
+  - minimap2=2.23
+  - samtools=1.14
   - snakemake
   - cython
   - numpy
@@ -17,5 +19,5 @@ dependencies:
   - python-igraph
   - pysam
   - orthofinder=2.5.4
-  - snpeff=5.0e
+  - snpeff=5.0
   - snpsift=4.3.1t

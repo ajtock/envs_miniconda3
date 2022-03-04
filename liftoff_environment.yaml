@@ -1,0 +1,7 @@
+#  mamba env create --name liftoff --file liftoff_environment.yaml 
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - liftoff=1.6.1
