@@ -1,0 +1,47 @@
+#  mamba env create --name R-4.0.0 --file R-4.0.0_environment.yaml 
+channels:
+  - conda-forge
+  - bioconda
+  - r
+  - defaults
+dependencies:
+  - r-base=4.0.0
+  - r-essentials
+  - r-dplyr
+  - r-plyr
+  - r-doparallel
+  - r-dorng
+  - r-dofuture
+  - r-hmisc
+  - r-ggplot2
+  - r-ggcorrplot
+  - r-plotrix
+  - r-ggbeeswarm
+  - r-ggthemes
+  - r-gridgraphics
+  - r-gridextra
+  - r-extrafont
+  - r-reshape
+  - r-glmnet
+  - r-psych
+  - r-caret
+  - r-glm2
+  - r-vcd
+  - r-car
+  - r-cairo
+  - r-pals
+  - r-fpc
+  - r-cluster
+  - r-ggfortify
+  - r-rtsne
+  - r-umap
+  - r-stringr
+  - bioconductor-genomicranges
+  - bioconductor-segmentseq
+  - bioconductor-rtracklayer
+  - bioconductor-complexheatmap
+  - bioconductor-enrichedheatmap
+  - bioconductor-clusterprofiler
+  - bioconductor-org.at.tair.db
+  - bioconductor-enrichplot
+  - bioconductor-dose

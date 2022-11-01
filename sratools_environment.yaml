@@ -1,0 +1,7 @@
+#  mamba env create --name sratools --file sratools_environment.yaml 
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - sra-tools 

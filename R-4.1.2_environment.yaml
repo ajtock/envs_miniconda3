@@ -1,0 +1,16 @@
+#  mamba env create --name R-4.1.2 --file R-4.1.2_environment.yaml 
+channels:
+  - conda-forge
+  - bioconda
+  - r
+  - defaults
+dependencies:
+  - r-base=4.1.2
+  - r-essentials
+  - r-dplyr=1.0.7
+  - r-rmpi
+  - r-rslurm
+  - r-doparallel
+  - r-dofuture
+  - r-devtools
+  - bioconductor-alphabeta

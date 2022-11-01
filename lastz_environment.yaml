@@ -1,0 +1,7 @@
+#  mamba env create --name lastz --file lastz_environment.yaml 
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - lastz
